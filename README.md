@@ -31,3 +31,4 @@ node index.js --file ./data/cidades-2.json --format html
 node index.js --file ./data/cidades-2.json --format txt
 ````
 - Este comando irá retornar tanto o formato html  tanto quanto o formato txt do nosso projeto.
+- Insira um comando por vez, para ficar melhor a visualização do resultado no terminal
