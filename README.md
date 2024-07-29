@@ -1,3 +1,5 @@
+## Documentação do projeto 
+
 ## Factory Method
 
 Utilizado para criar instâncias dos repórteres com base no formato especificado. Isso promove a extensão fácil para novos formatos de repórteres sem modificar o código existente, aderindo ao princípio OCP.
