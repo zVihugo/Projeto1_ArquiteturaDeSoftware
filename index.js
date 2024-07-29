@@ -11,7 +11,7 @@ const argv = yargs(hideBin(process.argv))
 const filename = argv.file;
 const format = argv.format;
 
-console.log(`Argumentos recebidos: filename=${filename}, format=${format}`); // Log de depuração
+console.log(`Argumentos recebidos: filename=${filename}, format=${format}`);
 
 try {
   const reporter = ReporterFactory.create(format);
