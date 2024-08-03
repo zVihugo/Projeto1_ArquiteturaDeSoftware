@@ -1,4 +1,4 @@
-import ReporterFactory from './src/ReporterFactory.js';
+import FactRep from './src/FactRep.js';
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 
@@ -14,7 +14,7 @@ const format = argv.format;
 console.log(`Argumentos recebidos: filename=${filename}, format=${format}`);
 
 try {
-  const reporter = ReporterFactory.create(format);
+  const reporter = FactRep.create(format);
   reporter.ler(filename);
   reporter.parse();
   const output = reporter.reportar();

@@ -1,7 +1,7 @@
 import * as fs from 'node:fs';
-import { IReporter } from './IReporter.js';
+import { Rep } from './Rep.js';
 
-export default class CidadesTXTReporter extends IReporter {
+export default class CidadesTXTReporter extends Rep {
   ler(caminho) {
     this.cidades = fs.readFileSync(caminho, 'utf-8');
   }
